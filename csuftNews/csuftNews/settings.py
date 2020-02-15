@@ -66,7 +66,7 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'csuftNews.pipelines.CsuftnewsPipeline': 300,
-    #'csuftNews.pipelines.MongoPipeline': 400,
+    'csuftNews.pipelines.MongoPipeline': 400,
 }
 MONGO_URI = 'locahost:27107'
 MONGO_DB = 'csuftnews'
